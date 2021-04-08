@@ -5,7 +5,8 @@ import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Services from "./components/pages/Services";
 import Contact from "./components/pages/Contact";
-import SignUp from "./components/pages/SignUp";
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
@@ -13,10 +14,12 @@ function App() {
       <Router>
         <Navbar />
         <Switch>
+        
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer/>
       </Router>
     </>
   );
