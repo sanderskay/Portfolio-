@@ -6,7 +6,7 @@ video {
   z-index: -1;
 }
 
-img {
+.personalpic {
   object-fit: cover;
   width: 330px;
   height: 330px;

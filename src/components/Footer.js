@@ -25,7 +25,9 @@ function Footer() {
           <div class="footer-link-items">
             <h2>Social Media</h2>
 
-            <a href="https://github.com/sanderskay">GitHub</a>
+            <a href="https://github.com/sanderskay" target="_blank">
+              GitHub
+            </a>
             {/*<Link to="/">LinkedIn</Link>*/}
           </div>
         </div>

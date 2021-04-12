@@ -8,8 +8,7 @@ function HeroSection() {
     <div className="hero-container">
       <h1>JULIAN SANDERS-KAY</h1>
       <p>React Developer</p>
-      <img src={jobpic} alt=""/>
-     
+      <img className="personalpic" src={jobpic} alt="" />
     </div>
   );
 }
