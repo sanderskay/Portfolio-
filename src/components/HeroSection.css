@@ -27,15 +27,15 @@ video {
   background-color: white;
 }
 
-.hero-container > h1 {
+.hero-h1 {
   color: black;
   font-size: 100px;
-  margin-top: -200px;
+  margin-top: -270px;
   font-weight: bold;
 }
 
 .hero-container > p {
-  margin-top: 8px;
+  margin-top: 25px;
   color: black;
   font-size: 32px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -58,7 +58,7 @@ video {
 @media screen and (max-width: 960px) {
   .hero-container > h1 {
     font-size: 70px;
-    margin-top: -150px;
+    margin-top: -250px;
   }
 }
 
